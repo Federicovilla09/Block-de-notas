@@ -7,9 +7,10 @@ body {
   flex-direction: row ;
   justify-content: center;
   gap: 20px;
+  text-align: center;
 }
 
-.color1 {
+.nota1 {
   width: 260px;
   height: 220px;
   border-radius: 4px;
@@ -17,24 +18,13 @@ body {
   border: 1px solid #225763;
 }
 
-.color1 button {
-  margin-top: 86px;
+.nota1 button {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-.color2 {
-  width: 260px;
-  height: 220px;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  border: 1px solid #225763;
-}
-
-
-.color2 button {
-  margin-top: 86px;
-}
-
-.color3 {
+.nota2 {
   width: 260px;
   height: 220px;
   border-radius: 4px;
@@ -43,11 +33,13 @@ body {
 }
 
 
-.color3 button {
-  margin-top: 86px;
+.nota2 button {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-.color4 {
+.nota3 {
   width: 260px;
   height: 220px;
   border-radius: 4px;
@@ -56,8 +48,25 @@ body {
 }
 
 
-.color4 button {
-  margin-top: 86px;
+.nota3 button {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.nota4 {
+  width: 260px;
+  height: 220px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 1px solid #225763;
+}
+
+
+.nota4 button {
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 button {
@@ -67,13 +76,11 @@ button {
   background-color: #225763;
   border: none;
   color: #FFFFFF;
-  margin: 5px;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  text-align: center;
-  padding: 20px;
-  width: 80px;
-  height: 160;
-  transition: all 0.5s;
+  font-weight: bold;
+  padding: 16px;
+  width: 82px;
+  transition: all 0.10s;
   cursor: pointer;
 }
