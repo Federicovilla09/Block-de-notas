@@ -1,3 +1,79 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.container {
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  gap: 20px;
+}
+
+.color1 {
+  width: 260px;
+  height: 220px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 1px solid #225763;
+}
+
+.color1 button {
+  margin-top: 86px;
+}
+
+.color2 {
+  width: 260px;
+  height: 220px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 1px solid #225763;
+}
+
+
+.color2 button {
+  margin-top: 86px;
+}
+
+.color3 {
+  width: 260px;
+  height: 220px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 1px solid #225763;
+}
+
+
+.color3 button {
+  margin-top: 86px;
+}
+
+.color4 {
+  width: 260px;
+  height: 220px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 1px solid #225763;
+}
+
+
+.color4 button {
+  margin-top: 86px;
+}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: #225763;
+  border: none;
+  color: #FFFFFF;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+  width: 80px;
+  height: 160;
+  transition: all 0.5s;
+  cursor: pointer;
+}
